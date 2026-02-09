@@ -22,8 +22,14 @@ This agent acts as a 24/7 digital analyst that does the heavy lifting for you. I
 To provide specialized restaurant intelligence, we integrated custom Python tools:
 
 - Inventory Forecaster: Predicts next week’s product demand and calculates specific ingredient requirements based on recent sales trends.
+- 
+<img width="800" height="1000" alt="sales_report" src="https://github.com/user-attachments/assets/e187dc7f-3dd2-4722-b91e-c550d07f6569" />
+
+------------------------------------------------------------------------------
 
 - Sales Visualizer: Generates comprehensive monthly reports featuring automated charts for revenue trends, product performance, and weekday distributions.
+  
+<img width="1092" height="506" alt="Screenshot 2026-02-10 022431" src="https://github.com/user-attachments/assets/6383f950-1dcc-4db7-8b3f-d468c15298d5" />
 
 ------------------------------------------------------------------------------
 
@@ -55,6 +61,7 @@ Integrating LangChain Memory would allow the manager to engage in multi-turn dia
 - **Static Data:** The agent currently analyzes a static export of data, which lacks real-time knowledge of the restaurant's operations. This means it cannot provide insights on live inventory levels or immediate mid-shift trends without a manual file upload.
 
 - **Reasoning Latency:** For extremely complex queries requiring multiple data transformations, the agent may hit max_iterations limits, requiring users to break down their requests into smaller, more manageable questions.
+
 
 
 
