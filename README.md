@@ -22,8 +22,8 @@ This agent acts as a 24/7 digital analyst that does the heavy lifting for you. I
 To provide specialized restaurant intelligence, we integrated custom Python tools:
 
 - Inventory Forecaster: Predicts next week’s product demand and calculates specific ingredient requirements based on recent sales trends.
-- 
-<img width="800" height="1000" alt="sales_report" src="https://github.com/user-attachments/assets/e187dc7f-3dd2-4722-b91e-c550d07f6569" />
+
+<img width="700" height="800" alt="sales_report" src="https://github.com/user-attachments/assets/e187dc7f-3dd2-4722-b91e-c550d07f6569" />
 
 ------------------------------------------------------------------------------
 
