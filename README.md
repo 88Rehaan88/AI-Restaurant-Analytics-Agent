@@ -27,12 +27,12 @@ To provide specialized restaurant intelligence, we integrated custom Python tool
 
 ------------------------------------------------------------------------------
 
-## Reliability & Precision:
+### Reliability & Precision:
 Driven by a strict system prompt, the agent is grounded in business logic which ensures every response is data-backed and formatted for immediate executive decision-making.
 
 ------------------------------------------------------------------------------
 
-## Future Improvements: 
+### Future Improvements: 
 - **Security & Production Safety:**
 While this project uses ‘allow_dangerous_code=True’ for local execution. However, in a real company setting, I would move this to a "Sandboxed Environment" (a secure, isolated digital container). This ensures that the AI can perform calculations without any risk of accidentally accessing or damaging/deleting the rest of the company's private data. 
 
