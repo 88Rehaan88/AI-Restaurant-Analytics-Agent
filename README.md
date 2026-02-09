@@ -7,12 +7,16 @@ The system combines several advanced components:
 -  Custom Tool Integration for specialized tasks like inventory forecasting and automated visualization dashboard.
 -  Rule-Based System Prompting to enforce business logic, time-series accuracy, and professional formatting.
 
-
+------------------------------------------------------------------------------
 ### The Problem:
 In a fast-paced restaurant environment, managers often spend hours manually reviewing sales records, performing complex calculations for inventory, and estimating future product requirements for the coming weeks. This manual process is not only time-consuming but also prone to human error. Miscalculating demand or missing a subtle revenue trend can lead to costly overstocking or even potential loss.
 
+------------------------------------------------------------------------------
+
 ### The Solution:
 This agent acts as a 24/7 digital analyst that does the heavy lifting for you. Instead of navigating spreadsheets, you can simply ask questions in plain English. The agent performs all necessary calculations and provides deep, data-driven insights to assist you in making confident, data-backed decisions.
+
+------------------------------------------------------------------------------
 
 ### Key Capabilities: 
 To provide specialized restaurant intelligence, we integrated custom Python tools:
@@ -21,8 +25,12 @@ To provide specialized restaurant intelligence, we integrated custom Python tool
 
 - Sales Visualizer: Generates comprehensive monthly reports featuring automated charts for revenue trends, product performance, and weekday distributions.
 
+------------------------------------------------------------------------------
+
 ## Reliability & Precision:
 Driven by a strict system prompt, the agent is grounded in business logic which ensures every response is data-backed and formatted for immediate executive decision-making.
+
+------------------------------------------------------------------------------
 
 ## Future Improvements: 
 - **Security & Production Safety:**
@@ -38,6 +46,8 @@ Integrating LangChain Memory would allow the manager to engage in multi-turn dia
 - **Advanced Time-Series Forecasting:** Replacing basic trend analysis with sophisticated models such as Prophet or ARIMA would significantly improve the accuracy of sales predictions by accounting for seasonality and complex growth patterns.
 
 - **Automated Data Ingestion:** In future iterations, we would implement automated data ingestion, connecting the agent directly to the restaurant’s or Inventory Management system via API. This would ensure the agent is always up-to-date with the latest transactions, allowing for "live" monitoring and more responsive decision-making.
+
+------------------------------------------------------------------------------
 
 ### 7. Limitations:
 - **Insight vs. Causality:** The model is exceptionally strong at providing data-backed insights (identifying what happened and when), but it struggles with deep causal reasoning. For example, it can detect a 20% drop in sales, but without external data, it cannot "reason" if that drop was due to a competitor's promotion, bad weather, or a local road closure.
