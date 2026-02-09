@@ -23,13 +23,13 @@ To provide specialized restaurant intelligence, we integrated custom Python tool
 
 - Inventory Forecaster: Predicts next week’s product demand and calculates specific ingredient requirements based on recent sales trends.
 
-<img width="800" height="800" alt="sales_report" src="https://github.com/user-attachments/assets/e187dc7f-3dd2-4722-b91e-c550d07f6569" />
+<img width="950" height="450" alt="Screenshot 2026-02-10 022431" src="https://github.com/user-attachments/assets/6383f950-1dcc-4db7-8b3f-d468c15298d5" />
 
 ------------------------------------------------------------------------------
 
 - Sales Visualizer: Generates comprehensive monthly reports featuring automated charts for revenue trends, product performance, and weekday distributions.
   
-<img width="950" height="450" alt="Screenshot 2026-02-10 022431" src="https://github.com/user-attachments/assets/6383f950-1dcc-4db7-8b3f-d468c15298d5" />
+<img width="1000" height="850" alt="sales_report" src="https://github.com/user-attachments/assets/e187dc7f-3dd2-4722-b91e-c550d07f6569" />
 
 ------------------------------------------------------------------------------
 
