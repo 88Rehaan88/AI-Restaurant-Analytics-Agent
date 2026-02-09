@@ -8,13 +8,13 @@ The system combines several advanced components:
 -  Rule-Based System Prompting to enforce business logic, time-series accuracy, and professional formatting.
 
 
-## The Problem:
+### The Problem:
 In a fast-paced restaurant environment, managers often spend hours manually reviewing sales records, performing complex calculations for inventory, and estimating future product requirements for the coming weeks. This manual process is not only time-consuming but also prone to human error. Miscalculating demand or missing a subtle revenue trend can lead to costly overstocking or even potential loss.
 
-## The Solution:
+### The Solution:
 This agent acts as a 24/7 digital analyst that does the heavy lifting for you. Instead of navigating spreadsheets, you can simply ask questions in plain English. The agent performs all necessary calculations and provides deep, data-driven insights to assist you in making confident, data-backed decisions.
 
-## Key Capabilities: 
+### Key Capabilities: 
 To provide specialized restaurant intelligence, we integrated custom Python tools:
 
 - Inventory Forecaster: Predicts next week’s product demand and calculates specific ingredient requirements based on recent sales trends.
@@ -39,7 +39,7 @@ Integrating LangChain Memory would allow the manager to engage in multi-turn dia
 
 - **Automated Data Ingestion:** In future iterations, we would implement automated data ingestion, connecting the agent directly to the restaurant’s or Inventory Management system via API. This would ensure the agent is always up-to-date with the latest transactions, allowing for "live" monitoring and more responsive decision-making.
 
-7. Limitations:
+### 7. Limitations:
 - **Insight vs. Causality:** The model is exceptionally strong at providing data-backed insights (identifying what happened and when), but it struggles with deep causal reasoning. For example, it can detect a 20% drop in sales, but without external data, it cannot "reason" if that drop was due to a competitor's promotion, bad weather, or a local road closure.
 
 - **Static Data:** The agent currently analyzes a static export of data, which lacks real-time knowledge of the restaurant's operations. This means it cannot provide insights on live inventory levels or immediate mid-shift trends without a manual file upload.
