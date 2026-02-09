@@ -1,0 +1,7 @@
+pandas
+matplotlib
+langchain
+langchain-core
+langchain-experimental
+langchain-google-genai
+tabulate
